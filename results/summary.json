@@ -1,0 +1,19 @@
+{
+  "rows": 4500,
+  "churn_rate": 0.1647,
+  "cv_roc_auc": 0.7822,
+  "test_roc_auc": 0.8122,
+  "precision": 0.475,
+  "recall": 0.1284,
+  "f1": 0.2021,
+  "feature_importances": {
+    "tenure_months": 0.2721,
+    "monthly_charges": 0.2212,
+    "total_charges": 0.1581,
+    "contract_type": 0.314,
+    "tech_support": 0.0261,
+    "online_security": 0.0085
+  },
+  "top_feature": "contract_type",
+  "high_risk_segment": "month-to-month contract, low tenure (from EDA in README)"
+}
